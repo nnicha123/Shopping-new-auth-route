@@ -1,0 +1,11 @@
+.outerRegister{
+        width: 600px;
+        margin: 0 auto;
+        margin-top: 30px;
+        padding: 30px;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+        margin-bottom: 30px;
+}
+.outerRegister h3{
+    margin-bottom: 20px;
+}

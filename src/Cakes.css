@@ -1,0 +1,35 @@
+
+.itemCard{
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    width: 170px;
+    margin: 10px;
+    background: white;
+}
+.itemCard img{
+    width: 170px;
+    height: 120px;
+}
+.cardBottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.itemTitle{
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+    padding-bottom: 0;
+}
+Button{
+    outline: none;
+}
+
+Button:hover,Button:focus{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.itemCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

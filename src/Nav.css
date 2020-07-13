@@ -1,0 +1,28 @@
+nav{
+    background-color: rgb(85, 14, 14);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+nav h3{
+    line-height: 0;
+    padding: 20px;
+    margin: 0;
+}
+nav button{
+    background-color:  rgb(85, 14, 14);
+    border: none;
+    color: white;
+    outline: none;
+}
+.nav-right{
+    list-style-type: none;
+    display: flex;
+}
+.nav-right button{
+    padding: 20px;
+}
+.nav-right button:focus{
+    background-color: rgb(92, 62, 62);
+}
